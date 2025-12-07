@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <body className="bg-white text-gray-900">
         <Navbar />
-        {children}
+        {children} 
         <Footer />
       </body>
     </html>

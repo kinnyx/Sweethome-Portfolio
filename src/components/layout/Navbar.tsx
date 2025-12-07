@@ -13,7 +13,7 @@ export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
     const menuRef = useRef<HTMLDivElement | null>(null);
 
-    // กดโลโก้เลื่อนขึ้นบนสุดแบบ smooth
+    // กดโลโก้เลื่อนขึ้นบนสุดแบบ smooth Test
     const handleScrollTop = () => {
         if (typeof window !== "undefined") {
             window.scroll({ top: 0, behavior: "smooth" });
